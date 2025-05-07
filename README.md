@@ -76,6 +76,6 @@ docker-compose logs -f
 - For development, uncomment the port mapping in `docker-compose.yml`.  
 
 ## 📄 License  
-MIT License (see [LICENSE](LICENSE) for details).  
+Apachi V2 License (see [LICENSE](LICENSE) for details).  
 
 ---
