@@ -1,0 +1,20 @@
+---
+services:
+  piper:
+    build:
+      context: .
+    container_name: piper
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - PIPER_MODEL=en_US-lessac-medium
+      - PIPER_DIR=/usr/local/piper
+    volumes:
+      - ./models:/usr/local/piper/models
+      
+    network_mode: host
+        #    ports:
+        #      - 10200:10200
+    restart: unless-stopped
+
