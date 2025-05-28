@@ -8,6 +8,7 @@ A Dockerized implementation of the [Piper TTS](https://github.com/rhasspy/piper)
 ├── Dockerfile              # Docker image build instructions
 ├── .env                    # Environment variables
 ├── models/                 # Directory to store TTS models (mounted) if not present create it
+├── tts_speak.sh            # Bash script for TTS
 └── .gitignore              # Git ignore rules
 ```
 
